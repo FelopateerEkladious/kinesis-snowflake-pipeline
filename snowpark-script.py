@@ -4,7 +4,6 @@ import pandas as pd
 
 
 def main(session: snowpark.Session): 
-    # Your code goes here, inside the "main" handler.
     tableName = 'raw_food_data'
 
     snow_table = session.table(tableName)
